@@ -1,2 +1,3 @@
 # NFC-Exploration
-NFC Reader - Writer - Emulator
+
+Android application, NFC Reader - Writer - Emulator

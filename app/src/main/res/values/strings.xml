@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NFC Reader - Writer</string>
+    <string name="read">READ</string>
+    <string name="write">WRITE</string>
+</resources>
