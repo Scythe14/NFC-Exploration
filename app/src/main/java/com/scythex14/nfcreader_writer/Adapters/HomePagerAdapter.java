@@ -2,18 +2,19 @@ package com.scythex14.nfcreader_writer.Adapters;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
 
+
 /**
  * Created by bouca-_d on 14/02/2017 for NFCReader-Writer.
  */
 
-public class HomePagerAdapter extends FragmentStatePagerAdapter {
+public class HomePagerAdapter extends FragmentPagerAdapter {
     private final List<Fragment> fragmentList = new ArrayList<>();
-    private final List<String> fragmentTitleList = new ArrayList<>();
 
     public HomePagerAdapter(FragmentManager manager) {
         super(manager);
@@ -29,13 +30,14 @@ public class HomePagerAdapter extends FragmentStatePagerAdapter {
         return fragmentList.size();
     }
 
-    public void addFragment(Fragment fragment, String title) {
+    public void addFragment(Fragment fragment) {
         fragmentList.add(fragment);
-        fragmentTitleList.add(title);
     }
 
     @Override
     public CharSequence getPageTitle(int position) {
-        return fragmentTitleList.get(position);
+        // Display only Icon
+        return null;
     }
+
 }
