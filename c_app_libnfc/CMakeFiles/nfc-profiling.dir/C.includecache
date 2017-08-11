@@ -16,7 +16,7 @@ stdlib.h
 string.h
 -
 mifare.h
--
+/home/dany/NFC-Exploration/c_app_libnfc/src/mifare.h
 tools.h
 /home/dany/NFC-Exploration/c_app_libnfc/src/tools.h
 

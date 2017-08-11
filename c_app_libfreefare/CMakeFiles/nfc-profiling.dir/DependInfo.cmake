@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/dany/NFC-Exploration/c_app/src/main.c" "/home/dany/NFC-Exploration/c_app/CMakeFiles/nfc-profiling.dir/src/main.c.o"
+  "/home/dany/NFC-Exploration/c_app_libfreefare/src/main.c" "/home/dany/NFC-Exploration/c_app_libfreefare/CMakeFiles/nfc-profiling.dir/src/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

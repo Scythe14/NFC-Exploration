@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/dany/NFC-Exploration/c_app/src/main.c
+/home/dany/NFC-Exploration/c_app_libfreefare/src/main.c
 stdlib.h
 -
 string.h
@@ -17,18 +17,6 @@ freefare.h
 -
 tools.h
 -
-nfc/nfc.h
--
-nfc/nfc-types.h
--
-iostream
--
-tools.hh
-/home/dany/NFC-Exploration/c_app/src/tools.hh
-applicationhelper.hh
-/home/dany/NFC-Exploration/c_app/src/applicationhelper.hh
-ccinfo.hh
-/home/dany/NFC-Exploration/c_app/src/ccinfo.hh
 
 /usr/local/lib/libfreefare/include/freefare.h
 sys/types.h

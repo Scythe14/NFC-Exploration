@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/dany/NFC-Exploration/c_app/include -I/usr/local/lib/libfreefare/include 
+C_INCLUDES = -I/home/dany/NFC-Exploration/c_app_libfreefare/include -I/usr/local/lib/libfreefare/include 
 

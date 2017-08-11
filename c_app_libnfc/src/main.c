@@ -191,7 +191,8 @@ int                     main(int ac, const char **av)
     }
   }
 
-  nfc_configure(device, NP_ACTIVATE_FIELD,false);
+  /*
+    nfc_configure(device, NP_ACTIVATE_FIELD,false);
   nfc_configure(device, NP_INFINITE_SELECT,false);
   nfc_configure(device, NP_HANDLE_CRC,true);
   nfc_configure(device, NP_HANDLE_PARITY,true);
@@ -200,12 +201,13 @@ int                     main(int ac, const char **av)
   for (sector = 1; sector < 9; sector++) {
     printf("Getting sector %d\n",sector);
     int authBlock = (sector*4)-1;
-    int startBlock = authBlock-3;
-    bool auth = authenticate(device, mp, target, authBlock, 0, false);
-    if (auth)
-      readblocks(device, mp, startBlock, authBlock);
+        int startBlock = authBlock-3;
+        //bool auth = authenticate(device, mp, target, authBlock, 0, false);
+        //if (auth)
+        //readblocks(device, mp, startBlock, authBlock);
   }
   
+  */
   nfc_close(device); 
   nfc_exit(context);
   exit(EXIT_SUCCESS);
