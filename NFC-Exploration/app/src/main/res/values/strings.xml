@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NFC-Exploration</string>
+    <string name="scan">HOLD YOUR NFC PAY-CARD TO THE BACK OF YOUR PHONE</string>
+    <string name="expire">Expire</string>
+    <string name="bank">Bank</string>
+    <string name="move_card">Please do not remove the card, try again!</string>
+    <string name="progress_title">Scanning in progress ...</string>
+    <string name="progress_message">Please do not remove the card during reading</string>
+</resources>

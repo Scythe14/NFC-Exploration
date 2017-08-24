@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">NFC Reader - Writer</string>
-    <string name="read">READ</string>
-    <string name="write">WRITE</string>
-    <string name="nfc_off">NFC IS OFF\n\t\tClick to\nActivate it!</string>
-    <string name="nfc_on">NFC IS ON</string>
-    <string name="toast_nfc_activation">Please activate NFC and press Back to return to the application!</string>
-</resources>
