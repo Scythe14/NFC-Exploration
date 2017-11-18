@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.github.siyamed.shapeimageview.RoundedImageView
+        android:id="@+id/card"
+        android:layout_width="350dp"
+        android:layout_height="180dp"
+        android:src="@drawable/card_background"
+        app:siRadius="10dp"
+        app:siBorderWidth="1dp"
+        app:siBorderColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/card"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/bank"
+        android:textColor="@android:color/black"
+        android:textScaleX="1"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="38dp"
+        android:src="@drawable/chip" />
+
+    <TextView
+        android:id="@+id/cardNumber"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/card"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="85dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/cardNumber"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="5dp"
+            android:gravity="start|center_vertical"
+            android:text="@string/expire"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cardValidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/holderName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="135dp"
+        android:gravity="start"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/type"
+        android:layout_width="70dp"
+        android:layout_height="34dp"
+        android:layout_alignBottom="@+id/card"
+        android:layout_alignEnd="@+id/card"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="10dp"
+        android:scaleType="fitCenter" />
+
+</RelativeLayout>

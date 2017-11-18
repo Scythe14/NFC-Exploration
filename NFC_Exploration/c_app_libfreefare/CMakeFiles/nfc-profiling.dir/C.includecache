@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dany/NFC-Exploration/c_app_libfreefare/src/main.c
+stdlib.h
+-
+string.h
+-
+nfc/nfc.h
+-
+freefare.h
+-
+tools.h
+-
+
+/usr/local/lib/libfreefare/include/freefare.h
+sys/types.h
+-
+stdint.h
+-
+nfc/nfc.h
+-
+
+include/tools.h
+

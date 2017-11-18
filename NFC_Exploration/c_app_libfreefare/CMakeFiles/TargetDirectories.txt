@@ -1,0 +1,3 @@
+/home/dany/NFC-Exploration/c_app_libfreefare/CMakeFiles/rebuild_cache.dir
+/home/dany/NFC-Exploration/c_app_libfreefare/CMakeFiles/edit_cache.dir
+/home/dany/NFC-Exploration/c_app_libfreefare/CMakeFiles/nfc-profiling.dir
